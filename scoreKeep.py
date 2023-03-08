@@ -15,6 +15,7 @@ def scoreKeep():
                 grade = 'D'
             else: grade = 'F'
         print(grade)
+        return grade
     except:
         print ("error: invalid score type")
         quit()
