@@ -10,7 +10,7 @@ def smallorlarge():
             maximum = max(list)
             minimum = min(list)
         except:
-            print("Invalid input")
+            print("input is not a valid number")
             
     print("Maximum is",maximum)
     print("Minimum is",minimum)

@@ -1,7 +1,7 @@
 def numberPicker():
-    strinput = input('Pick a Number:')
+    stringinput = input('Pick a Number:')
     try:
-        intval = int(strinput)
+        intval = int(stringinput)
     except:
         intval = -1
 

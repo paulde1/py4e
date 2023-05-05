@@ -19,7 +19,6 @@ def scoreKeep():
     except:
         print ("error: invalid score type")
         quit()
-    
 scoreKeep()
 
 
