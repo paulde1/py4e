@@ -1,11 +1,11 @@
 def numberPicker():
     stringinput = input('Pick a Number:')
     try:
-        intval = int(stringinput)
+        integervalue = int(stringinput)
     except:
-        intval = -1
+        integervalue = -1
 
-    if intval > 0 :
+    if integervalue > 0 :
         print('Nice work')
     else: 
         print('Not a number')
