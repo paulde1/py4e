@@ -1,6 +1,6 @@
 def regPay ():
-    hrs = input("Enter Hours:")
+    hours = input("Enter Hours:")
     rate = input("Enter Rate:")
-    pay = float(hrs) * float(rate)
+    pay = float(hours) * float(rate)
     print("Pay:", pay)
 regPay()

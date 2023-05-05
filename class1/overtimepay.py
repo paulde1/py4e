@@ -1,14 +1,14 @@
 #overtime pay calculator
 def overtimePay():
-    hrs = input("Enter Hours:")
+    hours = input("Enter Hours:")
     rate = input("Enter Rate:")
-    hrs = float(hrs)
+    hours = float(hours)
     rate = float(rate)
-    if hrs > 40 :
-        overtime = (hrs % 10) * 15.75
+    if hours > 40 :
+        overtime = (hours % 10) * 15.75
         pay = (40 * rate) + overtime
     else : 
-        pay = hrs * rate
+        pay = hours * rate
         
     print(pay)
 
