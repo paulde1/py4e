@@ -11,7 +11,12 @@ for line in filehandler:
 ## open file handler
 
 filename = input('Enter filename: ')
-filehandler = open(filename)
+try:
+    filehandler = open(filename)
+except:
+    print('Could not open file: ' + filename)
+    quit()
+    
 count = 0
 for line in filehandler:
     if line.startswith('subject:') :
