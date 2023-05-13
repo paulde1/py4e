@@ -7,7 +7,7 @@ except:
     quit()
 
 for line in filehandler:
-    line = line.upper().lstrip()
-    stringbuilder += line
-print(stringbuilder)
+    newline = line
+    stringbuilder += newline.upper()
+print(stringbuilder.rstrip())
 
