@@ -1,5 +1,5 @@
 text = "X-DSPAM-Confidence:    0.8475"
 startpoint = text.find(":")
-chosentext = text[startpoint + 1: len(text)].strip()
+chosentext = text[startpoint + 2:]
 answerasfloat = float(chosentext)
 print(answerasfloat)
