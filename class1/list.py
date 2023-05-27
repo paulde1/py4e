@@ -4,7 +4,8 @@ lst = list()
 
 for line in fh:
     line = line.rstrip()
-    line = line.split(" ")
+    line = line.split("  ")
+    lst.append(line)
 
 print(line)
     # for word in line:
