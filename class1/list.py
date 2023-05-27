@@ -3,6 +3,6 @@ fh = open(fname)
 lst = list()
 
 for line in fh:
-    print(line)
-    list.append(line)
-    print(list)
+    for word in line:
+        lst.append(word)
+print(list)
