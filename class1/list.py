@@ -3,7 +3,9 @@ fh = open(fname)
 lst = list()
 
 for line in fh:
+    line = line.rstrip()
     line = line.split(" ")
     lst.append(line)
 
-print(lst.sort())
+lst.sort()
+print(lst)
