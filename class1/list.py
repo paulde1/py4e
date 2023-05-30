@@ -3,16 +3,12 @@ fh = open(fname)
 lst = list()
 
 for line in fh:
-    line = line.rstrip()
-    lst.append(line)
-    # for word in line:
-    #     # letter = word.split('')
-    #     lst.append(word)
-    #     print(word)
-
-
-    # for word in line:
-    #     lst.append(word)
-
-lst.sort()
-print(lst)
+    for line in fh:                    
+        word= line.rstrip().split() 
+        for element in word:        
+            if element in lst:        
+                continue           
+            else :                    
+                lst.append(element)    
+lst.sort()                         
+print(lst)                        
