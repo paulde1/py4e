@@ -4,10 +4,13 @@ lst = list()
 
 for line in fh:
     line = line.rstrip()
-    line = line.split("  ")
     lst.append(line)
+    # for word in line:
+    #     # letter = word.split('')
+    #     lst.append(word)
+    #     print(word)
 
-print(line)
+
     # for word in line:
     #     lst.append(word)
 
