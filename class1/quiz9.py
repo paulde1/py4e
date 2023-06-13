@@ -9,3 +9,6 @@ for line in handler :
     line = line.split()
     list.append(line[1])
 
+container = dict()
+for word in list:
+    container[word]= container.get(word,0) + 1
