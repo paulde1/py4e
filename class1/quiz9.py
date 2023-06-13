@@ -1,4 +1,2 @@
-fhand = open('mboxshort.txt')
-for line in fhand:
-    line = line.rstrip()
-    if not line.startswith('From ')
+filename = input("Enter file: ")
+if len(filename) < 1 : name = "mboxshort.txt"
