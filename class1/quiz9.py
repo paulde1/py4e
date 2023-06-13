@@ -12,3 +12,11 @@ for line in handler :
 container = dict()
 for word in list:
     container[word]= container.get(word,0) + 1
+
+bigcount = None
+bigword = None
+
+for word,count in container.items():
+    if bigcount is None or count > bigcount:
+        bigcount = count
+        bigword =word
