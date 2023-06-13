@@ -20,3 +20,5 @@ for word,count in container.items():
     if bigcount is None or count > bigcount:
         bigcount = count
         bigword =word
+
+print(bigword,bigcount)
