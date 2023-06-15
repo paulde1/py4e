@@ -40,3 +40,6 @@ for k,y in d.items() :
 print(templist, "temp before sort")
 templist =sorted(templist, reverse = True)
 print(templist, "temp after sort")
+
+# shorter version 
+print (sorted ([(v,k) for k,v in d.items()]))
