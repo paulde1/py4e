@@ -12,5 +12,5 @@ for key, value in counts.items() :
 
 list = sorted(list, reverse = True)
 
-for value, key in list[:10] :
+for value, key in list[:10] : # list slicing that allows us to onlyy go throughthe first 10
     print(key, value)
