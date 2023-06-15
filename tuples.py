@@ -31,3 +31,12 @@ tuple
 
 for k,y in sorted(d.items()):
     print(k,y)
+
+#sort by swappiing k with y
+
+templist = list()
+for k,y in d.items() :
+    templist.append((y,k)) # swapping order of key value pair
+print(templist, "temp before sort")
+templist =sorted(templist, reverse = True)
+print(templist, "temp after sort")
