@@ -12,3 +12,14 @@ dir(tuple) # only count and index available
 #another way to aassign a tuple
 (x,y) = (4, "paul")
 print(y) # paul
+
+#sort a dict by key 
+d = {
+    "a":10,
+    "b":15,
+    "c":22
+}
+d.items()
+#dict_items([("a", 10), ("c",22),("b",1)])
+sorted(d.items())
+#[("a",10),("b",1),("c",22)]
