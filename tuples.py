@@ -23,3 +23,11 @@ d.items()
 #dict_items([("a", 10), ("c",22),("b",1)])
 sorted(d.items())
 #[("a",10),("b",1),("c",22)]
+
+#another way to sort tuple by key using loop
+
+tuple = sorted(d.items())
+tuple
+
+for k,y in sorted(d.items()):
+    print(k,y)
