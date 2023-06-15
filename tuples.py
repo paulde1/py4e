@@ -8,3 +8,7 @@ dir(list) # see all the dot functions available
 
 tuple = tuple()
 dir(tuple) # only count and index available
+
+#another way to aassign a tuple
+(x,y) = (4, "paul")
+print(y) # paul
