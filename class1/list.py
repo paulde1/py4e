@@ -11,4 +11,4 @@ for line in filehandler:
             else :                    
                 lst.append(element)    
 lst.sort()                         
-print(lst)                        
+# print(lst)                        
